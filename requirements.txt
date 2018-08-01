@@ -1,0 +1,8 @@
+pandas
+biopython
+tqdm
+requests
+beautifulsoup4
+numpy
+jupyter
+git+https://github.com/Lab41/freqgen.git
