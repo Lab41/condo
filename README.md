@@ -1,7 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1342306.svg)](https://doi.org/10.5281/zenodo.1342306)
 
-# Condo
-> Simulated codon optimized CDS dataset
+# Condo: Simulated codon-optimized CDS dataset
 
 ## Download
 
@@ -9,14 +8,15 @@ The most recent version of the Condo dataset is available for download in the HD
 
 To load the dataset using Pandas:
 ```python
-    import pandas as pd
-    df = df = pd.read_hdf("condo-0.1.3.h5", "condo")
+import pandas as pd
+df = pd.read_hdf("condo-0.1.3.h5", "condo")
 ```
 
 ## Contributing
+
 To work on creating new versions of the dataset, you will first need to clone the repository using:
 
-    $ git clone
+    $ git clone https://github.com/Benjamin-Lee/condo.git
 
 Then, `cd` into the repo and run the following command to download the required packages:
 
