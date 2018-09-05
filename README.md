@@ -5,7 +5,12 @@
 
 ## Download
 
-The most recent version of the Condo dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.1342306).
+The most recent version of the Condo dataset is available for download in the HDF format at [Zenodo](https://doi.org/10.5281/zenodo.1342306).
+
+To load the dataset using Pandas:
+
+    import pandas as pd
+    df = df = pd.read_hdf("condo-0.1.3.h5", "condo")
 
 ## Contributing
 To work on creating new versions of the dataset, you will first need to clone the repository using:
